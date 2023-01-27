@@ -1,0 +1,103 @@
+public class Ola {
+
+    interface olaCustomer{
+        void bookCab();
+
+        void findARide();
+
+        void rentCab();
+
+        void rateDriver();
+
+        void scheduleCab();
+        void cancelCab();
+
+        void addMoneytoWallet();
+        raiseTicket();
+
+        void
+
+        signup();
+
+        void
+
+        void signIn();
+
+    }
+
+    interface olaDriver{
+
+        void accept Booking();
+
+        void getCustomerLocation();
+
+        void setAvailableStatus();
+
+        void getMyCommission();
+
+        void raiseMoneyTransferRequest();
+        void callCustomer();
+
+        void setUpYourVehicle();
+
+        void customerFeedback();
+
+    }
+
+    interface
+
+    olaDriver{
+
+        void accept Booking();
+
+        getCustomerLocation();
+
+        void void setAvailableStatus();
+
+        void getMyCommission();
+        void raiseMoneyTransferRequest();
+
+        void callCustomer();
+
+        void
+
+        setUpYourVehicle();
+        void customerFeedback();
+
+    }
+
+    interface olaOwner{
+
+        void getDriverRecords();
+
+        void
+
+        getReportByDriverID();
+
+        void
+
+        getReportByRegion();
+
+        void getTotalRevenue();
+        void getCustomersFeedback();
+
+        void addDriver();
+
+        void removeDriver();
+
+        void
+
+        changeDriverStatus();
+
+    }
+
+    public class Test1
+            implements olaOwner, olaDriver, olaCustomer {
+
+        public static void main(String[] args) {
+
+        }
+
+    }
+
+}
